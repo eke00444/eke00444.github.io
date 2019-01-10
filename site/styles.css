@@ -8,12 +8,12 @@ nav{position: absolute;right:0px;top: 5px;text-align:left;}
 nav a{text-decoration:none;
   width: 20px;height:50px;
 ;margin-right: auto;color:#993333;}
-nav a:hover{background-color:#9c4943;color:#fff;}
+nav a:hover{background-color:#993333;color:#fff;}
 nav img{width: 35px;}
-nav a:active{margin-top: 3px;}
+nav a:active{margin-top: px;}
 img a{text-decoration:none;}
 li{float:;padding: 7px;}
-ul{list-style-type:none;
+ul{list-style-type:;
 padding:5;}
 #page_home #btn_home a:link{background:#d5cac6; }
 #page_portfolio #btn_portfolio a:link{background:#d5cac6;}
