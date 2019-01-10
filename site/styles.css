@@ -7,7 +7,7 @@ position: relative;}
 nav{position: absolute;right:0px;top: 5px;text-align:left;}
 nav a{text-decoration:non;
   width: 20px;height:50px;
-;margin-right: auto;color:#993333;}
+;margin-right: ato;color:#993333;}
 nav a:hover{background-color:#993333;color:#fff;}
 nav img{width: 35px;}
 nav a:active{margin-top: px;}
