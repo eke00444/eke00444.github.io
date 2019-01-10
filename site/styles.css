@@ -13,7 +13,7 @@ nav img{width: 35px;}
 nav a:active{margin-top: px;}
 img a{text-decoration:none;}
 li{float:;padding: 7px;}
-ul{list-style-type:;
+ul{list-style-type:none;
 padding:5;}
 #page_home #btn_home a:link{background:#d5cac6; }
 #page_portfolio #btn_portfolio a:link{background:#d5cac6;}
