@@ -5,7 +5,7 @@ header{height:500px;font-size:14px;text-align:right;text-shadow:20px ;font-famil
 position: relative;}
 
 nav{position: absolute;right:0px;top: 5px;text-align:left;}
-nav a{text-decoration:non;
+nav a{text-decoration:none;
   width: 20px;height:50px;
 ;margin-right: ato;color:#993333;}
 nav a:hover{background-color:#993333;color:#fff;}
