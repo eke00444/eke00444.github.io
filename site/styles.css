@@ -12,7 +12,7 @@ nav a:hover{background-color:#9c4943;color:#fff;}
 nav img{width: 35px;}
 nav a:active{margin-top: 3px;}
 img a{text-decoration:none;}
-li{float:left;padding: 7px;}
+li{float:;padding: 7px;}
 ul{list-style-type:none;
 padding:5;}
 #page_home #btn_home a:link{background:#d5cac6; }
