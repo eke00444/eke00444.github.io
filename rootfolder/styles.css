@@ -1,46 +1,6 @@
-/***********************************************************/
-/*      LAPTOP + DESKTOP                                   */
-@media screen and (min-width: 1025px) {
-	#laptop {background-color: #900; color: #fff;}
-	.myDisplay {width:1024px;}
-}
-/***********************************************************/
-/*      TABLETs                                            */
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
-	#tabletlandscape {background-color: #900; color: #fff;}
-	.myDisplay {width:1024px;}
-}
 
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
-	#tabletportrait {background-color: #900; color: #fff;}
-	.myDisplay {width:768px;}
-}
-
-/***********************************************************/
-/*      PHONEs                                             */
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
-	#phonelandscape {background-color: #900; color: #fff;}
-	.myDisplay {width:568px;}
-}
-@media screen and (min-width: 420px) and (max-width: 767px) and (orientation: portrait){
-	#phoneportrait {background-color: #900; color: #fff;}
-	.myDisplay {width:320px;}
-}
-/***********************************************************/
-/*      PRINT                                              */
-@media only print {
-  body {
-	width: 100%;
-	background-color: #fff;
-	font-family: Georgia, serif;
-	font-size: 36px;
-	color: #000;
-  }
-}
-/***********************************************************/
-/*     REGLES COMMUNES                                     */
-
-
+body{background: #ffffcc;
+margin:0px }
 
 header, footer, #main, footer {
   width: 1024px;
@@ -133,6 +93,26 @@ ul {
 #main a {
   text-decoration: none;
 }
+.salut{text-align: center;
+font-size: 60px;
+position: absolute;
+bottom: 220px;
+right: 260px;
+color:#853333;
+
+}
+.presentation {
+	background-color: #d5cac6;
+	width: 1024px;
+	height:auto;
+	text-align: center;
+font-size: 30px;
+position: ;
+bottom: ;
+right: ;
+color:#853333;
+
+}
 
 .titre {
   font-size: 20px;
@@ -141,31 +121,90 @@ ul {
   color: #853333;
 }
 
-.liens {
+.lien1  {background-color:#d5cac6;
   height: auto;
+	  width: 1024px;
   font-size: 20px;
-  width: 700px;
   margin: auto;
   margin-top: 20px;
   font-family: sans-serif;
+	text-align: center;
+}
+.lien2 {
+	background-color:#d5cac6;
+	  height: auto;
+		  width: 1024px;
+	  font-size: 20px;
+	  margin: auto;
+	  margin-top: 20px;
+	  font-family: sans-serif;
+		text-align: center;
+}
+.lien3 {
+	background-color:#d5cac6;
+	  height: auto;
+		  width: 1024px;
+	  font-size: 20px;
+	  margin: auto;
+	  margin-top: 20px;
+	  font-family: sans-serif;
+		text-align: center;
 }
 
-.liens a {
+.lien1 a {
   line-height: -100px;
   color: #996600;
 }
 
-.liens li {
+.lien1 li {
   float: none;
   ;
 }
 
-.liens a:hover {
+.lien1 a:hover {
   color: #000;
 }
 
-.liens img {
+.lien1 img {
   width: 300px;
+  height: 200px;
+}
+
+.lien2 a {
+  line-height: -100px;
+  color: #996600;
+}
+
+.lien2 li {
+  float: none;
+  ;
+}
+
+.lien2 a:hover {
+  color: #000;
+}
+
+.lien2 img {
+  width: 325px;
+  height: 200px;
+}
+
+.lien3 a {
+  line-height: -100px;
+  color: #996600;
+}
+
+.lien3 li {
+  float: none;
+  ;
+}
+
+.lien3 a:hover {
+  color: #000;
+}
+
+.lien3 img {
+  width: 325px;
   height: 200px;
 }
 
@@ -188,13 +227,14 @@ ul {
 .informationconatct h3 {
   color: #993333;
   margin-top:80px ;
+	margin-left:10px ;
 }
 
 .num p {
   position: absolute;
   font-size: 25px;
   left: 180px;
-  top:108px;
+  top:95px;
 }
 
 
@@ -309,11 +349,11 @@ footer a:hover {
   height: 600px;
 }
 #rectangle1 img{
-  width: 142px;
-  height: 110px;
+  width: 152px;
+  height: 130px;
 	position: absolute;
 	top:1600px;
-	right: 440px;
+	right: 400px;
 
 }
 
