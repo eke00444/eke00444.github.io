@@ -306,7 +306,15 @@ footer a:hover {
 #rectangle1 {
   background-color: #d5cac6;
   width: 1024px;
-  height: 700px;
+  height: 600px;
+}
+#rectangle1 img{
+  width: 142px;
+  height: 110px;
+	position: absolute;
+	top:1600px;
+	right: 440px;
+
 }
 
 .space1 {
