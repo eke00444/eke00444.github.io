@@ -1,0 +1,325 @@
+/***********************************************************/
+/*      LAPTOP + DESKTOP                                   */
+@media screen and (min-width: 1025px) {
+	#laptop {background-color: #900; color: #fff;}
+	.myDisplay {width:1024px;}
+}
+/***********************************************************/
+/*      TABLETs                                            */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+	#tabletlandscape {background-color: #900; color: #fff;}
+	.myDisplay {width:1024px;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+	#tabletportrait {background-color: #900; color: #fff;}
+	.myDisplay {width:768px;}
+}
+
+/***********************************************************/
+/*      PHONEs                                             */
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
+	#phonelandscape {background-color: #900; color: #fff;}
+	.myDisplay {width:568px;}
+}
+@media screen and (min-width: 420px) and (max-width: 767px) and (orientation: portrait){
+	#phoneportrait {background-color: #900; color: #fff;}
+	.myDisplay {width:320px;}
+}
+/***********************************************************/
+/*      PRINT                                              */
+@media only print {
+  body {
+	width: 100%;
+	background-color: #fff;
+	font-family: Georgia, serif;
+	font-size: 36px;
+	color: #000;
+  }
+}
+/***********************************************************/
+/*     REGLES COMMUNES                                     */
+
+
+
+header, footer, #main, footer {
+  width: 1024px;
+  background-color: #d5cac6;
+}
+
+header {
+  height: 500px;
+  font-size: 14px;
+  text-align: right;
+  text-shadow: 20px;
+  font-family: sans-serif;
+  background-image: url(imagers/eke.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  right: 80px;
+  top: -10px;
+  text-align: left;
+}
+
+nav a {
+  text-decoration: none;
+  width: 20px;
+  color: #993333;
+}
+
+nav img {
+  width: 18px;
+  position: absolute;
+  right: 55px;
+  margin-top: -1px;
+}
+
+
+ a:link {
+
+}
+
+a:visited {
+  color: #993333;
+  background-color: #cc9999;
+}
+
+nav a:hover {
+  background-color:#005;
+  color: #cc9999;
+}
+
+
+a:active {}
+
+img a {
+  text-decoration: none;
+}
+
+li {
+  padding: 2px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 2;
+}
+
+#page_home #btn_home a:link {
+  background: #d5cac6;
+}
+
+#page_portfolio #btn_portfolio a:link {
+  background: #d5cac6;
+}
+
+#page_contact #btn_contact a:link {
+  background: #d5cac6;
+}
+
+#page_about #btn_about a:link {
+  background: #d5cac6;
+}
+
+#main {
+  height: 700px;
+  position: relative;
+}
+
+#main a {
+  text-decoration: none;
+}
+
+.titre {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: sans-serif;
+  color: #993333;
+}
+
+.liens {
+  height: auto;
+  font-size: 20px;
+  width: 700px;
+  margin: auto;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+.liens a {
+  line-height: -100px;
+  color: #996600;
+}
+
+.liens li {
+  float: none;
+  ;
+}
+
+.liens a:hover {
+  color: #000;
+}
+
+.liens img {
+  width: 300px;
+  height: 200px;
+}
+
+#gropeportfolio {
+  position: absolute;
+  left: 115px;
+  line-height: 20px;
+  margin: 5px;
+}
+.clique{font-size: 20px;font-family: sans-serif;text-align: center;margin: 100px;}
+
+.informationconatct {
+  font-family: sans-serif;
+  color: #000;
+  font-size: 30px;
+  text-align: auto;
+  text-decoration: underline #993333;
+}
+
+.informationconatct h3 {
+  color: #993333;
+  margin-top:80px ;
+}
+
+.num p {
+  position: absolute;
+  font-size: 25px;
+  left: 180px;
+  top:108px;
+}
+
+
+.email p {
+  position: absolute;
+  font-size: 25px;
+  left: 175px;
+  top: 227px;
+}
+
+.email p1 {
+  position: absolute;
+  font-size: 25px;
+  top: 40px;
+}
+
+.ad p {
+  position: absolute;
+  font-size: 25px;
+  left: 178px;
+  top: 349px;
+}
+
+.mailt {
+  text-align: center;
+  position: absolute;
+  left: 460px;bottom:50px
+
+}
+
+.mailt a {
+  font-size: 25px;
+  color: #993333;
+}
+
+.mailt a:hover {
+  color: #000;
+}
+
+.bio {
+  height: auto;
+  font-size: 22px;
+  width: 700px;
+  margin: auto;
+  margin-top: 70px;
+  font-family: sans-serif;
+}
+
+.reseauxsociaux a {
+  font-size: 20px;
+  list-style-type: none;
+  color: #993333;
+  float: left;
+  list-style-type: none;
+  width: 300px;
+  height: 100px;
+}
+
+.reseauxsociaux {
+  list-style-type: none;
+  text-align: center;
+  line-height: 200px;
+  font-family: sans-serif;
+}
+
+.reseauxsociaux a:hover {
+  color: #000;
+}
+
+footer a {
+  height: 50px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  height: 20px;
+  border-top: solid 1px #333333;
+  border-bottom: solid 1px #333333;
+  padding-bottom: 5px;
+}
+
+footer a:hover {
+  background-color: #cccccc;
+}
+
+#block {
+  position: absolute;
+  left: 50%;
+  margin-left: -512px
+}
+
+.vide {
+  width: 1024px;
+  background-color: #d5cac6;
+  height: 20px;
+}
+
+#rectangle {
+  background-color: #d5cac6;
+  width: 1024px;
+  height: 500px;
+  position: absolute;
+}
+
+#rectangle1 {
+  background-color: #d5cac6;
+  width: 1024px;
+  height: 400px;
+}
+
+.space1 {
+  height: 200px;
+  width: 1024px;
+  background-color: #d5cac6;
+  position: absolute;
+  bottom: -200px;
+}
+
+.space2 {
+  height: 3100px;
+  width: 1024px;
+  background-color: #d5cac6;
+}
