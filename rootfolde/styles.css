@@ -407,7 +407,7 @@ footer a:hover {
   background-color: #cccccc;
 }
 
-#block {margin-left: auto;width:auto;
+#block {margin-left: auto;margin-right: auto;
 }
 
 

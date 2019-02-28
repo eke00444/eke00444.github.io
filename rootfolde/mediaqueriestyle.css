@@ -222,6 +222,8 @@ img{max-width: 1024px;}
   #page_about .vide{ display:none}
   }
 
+  }
+
 
 @media print {
 
@@ -230,7 +232,6 @@ img{max-width: 1024px;}
     display: none;
   }
 title, footer{display: none;}
-
 #qr{position: absolute;}
 #qr img{ width: 150px;height: 150px;position: absolute;}
 
