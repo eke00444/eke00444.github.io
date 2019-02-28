@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8">
+
+<head>
+  <title>mon siteweb</title>
+  <link rel=stylesheet href="styles.css"
+    type="text/css"/>
+    <link rel=stylesheet href="mediaqueriestyle.css" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet"></head>
+
+<body id="page_contact">
+  <!-- block me sert à centrer mon site portfolio -->
+  <div id="block">
+    <header>
+      <div id="btn_menu" onclick="toto()">
+      <img src="imagers/block.jpg">
+        </div>
+
+      <img src="imagers/ek.png" </img>
+      <nav id="list">
+      <div class="My CONTACT"></div>
+   <div id="liste">
+      <ul>
+        <li id="btn_home"><a href="index.html"><img src="imagers/home.png">Home</img></a></li>
+        <li id="btn_portfolio"><a href="portfolio.html"><img src="imagers/porte.png">Portfolio</img></a></li>
+        <li id="btn_contact"> <a href="contact.html"><img src="imagers/fone.png">Contact</img></a></li>
+        <li id="btn_about"> <a href="about.html"><img src="imagers/about.png">About</img></a></li>
+      </ul>
+    </div>
+
+      </nav>
+    </header>
+
+          <div id="ret"></div>
+      <div id="tit">Contact</div>
+
+    <div class="ad"> Si vous souhaitez faire une demande n'hésitez pas à me contacter et je vous repondrai dans les meilleurs délais.
+      Pour me contacter directement envoyez votre email cliquer sur <a href="mailto:eke00444@gmail.com">Contacte moi.</a></div>
+
+    <!-- tous les footers de chaque page contient un mailto-->
+    <footer><a href="mailto:eke00444@gmail.com">Copyright Eke Godwill Onwuchekwa 2018 | Contact me</a></footer>
+    <!-- vide est un petit rectangle qui se trouve en bas du footer -->
+    <div class="vide"></div>
+      </div>
+
+    <script>
+    var open=false;
+    function toto(){
+      if(open==false){
+        document.getElementById("block").style.left="267px";
+    open=true;
+      }
+        else{
+        document.getElementById("block").style.left="0px";
+        open=false;}
+        }
+          </script>
+</body>
+
+</html>
