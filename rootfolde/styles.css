@@ -6,7 +6,7 @@ body {
 }
 
 
-#qr{}
+#qr{display: none;}
 
 header, footer, #main, footer {
   width: 1024px;
