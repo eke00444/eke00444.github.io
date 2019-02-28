@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px)
+{
+  header, footer, #main, footer {
+    max-width: 328px;margin-left: 0px;margin-right: 0px;
+  }
+  header{
+  max-height:150px;
+  }
+  #main{
+  max-height:650px;
+  }
+
+    img{
+      max-width: 328px;
+    }
+   .liens  img{
+      max-width: 328px
+    }
+     nav li{width: 6px;margin-left: 60px;font-size: 15px;}
+    nav img {  width: 25px;
+              position: absolute;right: 5px;
+                }
+li{max-width: 328px;margin-left: 0px;margin-right: 0px;
+              }
+
+  #page_about .vide {
+                  width: 1024px;
+                  background-color: #d5cac6;
+                  height: 30px;
+                }
+      .reseauxsociaux img{
+    width: 60px;max-height: 90px;margin-top: 49px
+    }
+    .lien1, .lien2,.lien3{
+      max-width: 328px;margin-left: 0px;margin-right: 0px;
+    }
+#logo{width: 38px;}
+.presentation{
+  max-width: 328px;margin-left: 0px;margin-right: 0px;
+}
+#titre{
+  max-width: 328px;margin-left: 0px;margin-right: 0px;
+}
+
+.lien1 img, .lien2 img,.lien3 img{
+  max-width: 328px;margin-left: 0px;margin-right: 0px;
+}
+footer, .vide, #tit,.ad{
+  max-width: 328px;margin-left: 0px;
+
+}
+
+#tit{
+  height: 100px;position: absolute;top:150px;
+}
+
+.ad{  right:0px;  max-width:228px;font-size:15px;top:250px;
+  }
+.vide{position: absolute;top:460px;max-height:35px; }
+  .ab{  right: -24px;  max-width: 280px;font-size:15px;position: absolute;top:-5px;
+}
+#page_about #main{ max-height: 600px;position: absolute;top: 250px;
+}
+  }
