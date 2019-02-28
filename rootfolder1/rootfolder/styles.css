@@ -6,7 +6,9 @@ body {
 }
 
 
-#qr{display: none;}
+#qr{dis;}
+  #qr{position: absolute;}
+  #qr img{ width: 150px;height: 150px;position: absolute;}}
 
 header, footer, #main, footer {
   width: 1024px;
