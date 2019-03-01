@@ -231,7 +231,8 @@ img{max-width: 1024px;}
   }
 title, footer{display: none;}
 
-#qr{position: absolute;}
+
+#qr{position: absolute;display:block;}
 #qr img{ width: 150px;height: 150px;position: absolute;}
 
 }

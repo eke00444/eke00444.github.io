@@ -1,0 +1,449 @@
+
+body {
+  background: #cac0b8;
+  font-family: 'Sansita', sans-serif;
+  margin: 0px;
+}
+
+header, footer, #main, footer {
+  width: 1024px;
+  background-color: #d5cac6;
+}
+
+header {
+  height: 500px;
+  font-size: 22px;
+  text-align: right;
+  text-shadow: 20px;
+  background-size: cover;
+  position: relative;
+}
+  #qr{display: none;}
+
+#ret {
+  width: 1024px;
+  height: 20px;
+  background-color: #cac0b8;
+}
+
+#page_contact header {
+  height: 660px;
+  font-size: 14px;
+  text-align: right;
+  text-shadow: 20px;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  right: 80px;
+  top: 5px;
+  text-align: left;
+}
+
+nav a {
+  text-decoration: none;
+  width: 20px;
+  color: #993333;
+}
+
+nav img {
+  width: 26px;
+  position: absolute;
+  right: 75px;
+}
+
+a:link {}
+
+a:visited {
+  color: #993333;
+  background-color: #cc9999;
+}
+
+nav a:hover {
+  background-color: #005;
+  color: #cc9999;
+}
+
+a:active {}
+
+img a {
+  text-decoration: none;
+}
+
+li {
+  padding: 5px;
+}
+#page_contact li ,nav {
+  top: 5px;
+font-size:18px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5;
+}
+
+#page_home #btn_home a:link {
+  background: #d5cac6;
+}
+
+#page_portfolio #btn_portfolio a:link {
+  background: #d5cac6;
+}
+
+#page_contact #btn_contact a:link {
+  background: #d5cac6;
+}
+
+#page_about #btn_about a:link {
+  background: #d5cac6;
+}
+
+#main {
+  height: 700px;
+  position: relative;
+}
+
+#main a {
+  text-decoration: none;
+}
+
+.salut {
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+  bottom: 220px;
+  right: 310px;
+  color: #853333;
+}
+.presentation {
+  text-align: center;
+  width: 512px;
+  height: auto;
+  font-size: 20px;
+  color: #330000;
+  font-size: justify;
+  margin-left: 256px;
+  padding: 10px;
+  text-decoration:none;
+}
+#btn_menu, #btn_close{
+  width:50px;
+  height:50px;
+  display:none;}
+
+#titre {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Sansita', sans-serif;
+  color: #330000;
+  width: 1024px;
+  position: absolute;
+  top: 590px;
+}
+
+#titr {
+  font-size: 20px;
+  text-align: center;
+  color: #330000;
+  background: #d5cac6;
+  height: 3px;
+  width: 1024px;
+  position: absolute;
+  top: -60px;
+}
+
+#tit {
+  font-size: 50px;
+  text-align: center;
+  color: #330000;
+  background: #d5cac6;
+  height: 3px;
+  width: 1024px;
+  position: absolute;
+  top: 300px;
+}
+
+.ab {
+  height: auto;
+  font-size: 20px;
+  margin: auto;
+  color: #330000;
+  width: 600px;
+  text-align: center;
+  padding: 50px;
+  text-align: justify;
+}
+
+.lien1 {
+  background-color: #d5cac6;
+  width: 1024px;
+  height: auto;
+  font-size: 20px;
+  color: #330000;
+  font-size: justify;
+  margin-top: 70px;
+  text-decoration: none;
+}
+
+.lien2 {
+  background-color: #d5cac6;
+  width: 1024px;
+  height: auto;
+  font-size: 20px;
+  color: #330000;
+  font-size: justify;
+  text-decoration: none;
+}
+
+.lien3 {
+  background-color: #d5cac6;
+  width: 1024px;
+  height: 330px;
+  font-size: 20px;
+  color: #330000;
+  font-size: justify;
+  text-decoration: none;
+}
+
+.lien1 a {
+  line-height: -100px;
+  color: #996600;
+  text-decoration: none;
+}
+
+.lien1 li {
+  float: none;
+}
+
+.lien1 a:hover {
+  color: #000;
+}
+
+.lien1 img {
+  width: 300px;
+  height: 200px;
+}
+
+.lien2 a {
+  line-height: -100px;
+  color: #996600;
+  text-decoration: none;
+}
+
+.lien2 li {
+  float: none;
+}
+
+.lien2 a:hover {
+  color: #000;
+}
+
+.lien2 img {
+  width: 325px;
+  height: 200px;
+}
+
+.lien3 a {
+  line-height: -100px;
+  color: #996600;
+  text-decoration: none;
+}
+
+.lien3 li {
+  float: none;
+  ;
+}
+
+.lien3 a:hover {
+  color: #000;
+}
+
+.lien3 img {
+  width: 325px;
+  height: 200px;
+}
+
+#gropeportfolio {
+  position: absolute;
+  left: 200px;
+  line-height: 20px;
+margin-top: 10px;
+
+}
+
+.ad {
+  height: auto;
+  font-size: 20px;
+  width: 524px;
+  text-align: center;
+  background-color: #d5cac6;
+  padding: 50px;
+  position: absolute;
+  top: 400px;
+  right:180px;
+  text-align: justify;
+  color: #330000
+}
+
+.ad a {
+  text-decoration: none;
+  color: #993333;
+}
+
+.reseauxsociaux a {
+  font-size: 20px;
+  list-style-type: none;
+  color: #993333;
+  float: left;
+  text-decoration: none;
+  width: 250px;
+  margin-left: 70px;
+}
+
+.reseauxsociaux {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 190px;
+}
+
+.reseauxsociaux a:hover {
+  color: #000;
+}
+
+#page_home footer {
+  font-size: 12px;
+  text-align: center;
+  color: #853333;
+  background: #d5cac6;
+  height: 20px;
+  width: 1024px;
+  position: absolute;
+  top: 1640px;
+  padding-top: 10px;
+  border-top: dotted 0.5px #000;
+  border-bottom: dotted 0.5px #000;
+}
+
+#page_portfolio #main {
+
+  top: 15px;
+}
+
+#page_portfolio footer {
+  font-size: 12px;
+  text-align: center;
+  color: #853333;
+  background: #d5cac6;
+  height: 20px;
+  width: 1024px;
+  position: absolute;
+  top: 375px;
+  padding-top: 12px;
+  border-top: dotted 0.5px #000;
+  border-bottom: dotted 0.5px #000;
+}
+
+footer a {
+  height: 50px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+#page_about footer {
+  font-size: 12px;
+  text-align: center;
+  color: #853333;
+  background: #d5cac6;
+  height: 30px;
+  width: 1024px;
+  position: absolute;
+  top: 1220px;
+  padding-top: 12px;
+  border-top: dotted 0.5px #000;
+  border-bottom: dotted 0.5px #000;
+}
+
+#page_about .vide {
+  width: 1024px;
+  background-color: #d5cac6;
+  height: 30px;
+}
+
+#page_contact footer {
+  font-size: 12px;
+  text-align: center;
+  color: #853333;
+  background: #d5cac6;
+  height: 30px;
+  width: 1024px;
+  position: absolute;
+  top: 350px;
+  padding-top: 12px;
+  border-top: dotted 0.5px #000;
+  border-bottom: dotted 0.5px #000;
+}
+
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  color: #853333;
+  background: #d5cac6;
+  height: ;
+  width: 1024px;
+  position: absolute;
+  top: 1590px;
+
+}
+
+footer a:hover {
+  background-color: #cccccc;
+}
+
+#block {margin-left: auto;width:auto;
+}
+
+
+
+#page_home .vide {
+  width: 1024px;
+  background-color: #d5cac6;
+  height: 10px;
+  margin: 50px;
+}
+
+#rectangle {
+  background-color: #d5cac6;
+  width: 1024px;
+  height: 500px;
+  position: absolute;
+}
+
+#logo img {
+  width: 200px;
+  height: 120px;
+  position: absolute;
+  top: 380px;
+  left: 415px;
+}
+
+
+
+.space1 {
+  height: 200px;
+  width: 1024px;
+  background-color: #d5cac6;
+  position: absolute;
+  bottom: -200px;
+}
+
+.space2 {
+  height: 1200px;
+  width: 1024px;
+  background-color: #d5cac6;
+}

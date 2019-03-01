@@ -5,9 +5,6 @@ body {
   margin: 0px;
 }
 
-
-#qr{display:none;}
-
 header, footer, #main, footer {
   width: 1024px;
   background-color: #d5cac6;
@@ -21,6 +18,7 @@ header {
   background-size: cover;
   position: relative;
 }
+  #qr{display: none;}
 
 #ret {
   width: 1024px;
